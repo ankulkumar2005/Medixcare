@@ -11,7 +11,7 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const backendUrl = https://medixcare-backend.onrender.com
+  const backendUrl = "https://medixcare-backend.onrender.com";
 
   const { setDToken } = useContext(DoctorContext)
   const { setAToken } = useContext(AdminContext)
